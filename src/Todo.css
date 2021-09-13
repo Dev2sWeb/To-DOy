@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+body{
+    background-color: #060822;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.main-div{
+    /* text-align: center;         */
+    display: flex;
+    justify-content: center;    
+}
+.child-div
+{
+    text-align: center;
+    /* align-items: center;     */
+    margin-top: 60px;    
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;    
+    padding: 15px;
+    color: white;
+    letter-spacing: 10px;    
+    border : 10px solid #fff;
+    border-radius: 100px;
+    text-shadow: 0 0 50px skyblue;
+    box-shadow: 0px 0px 100px skyblue;
+    animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate {
+    0%{box-shadow: 0 0 100px white;}    
+    20%{box-shadow: 0 0 200px blue;}
+    40%{box-shadow: 0 0 200px hotpink;}
+    60%{box-shadow: 0 0 200px skyblue;}
+    80%{box-shadow: 0 0 100px yellow;}
+    100%{box-shadow: 0 0 100px white;}
+}
+img 
+{
+    width: 100px;
+    height: 120px;    
+}
+figcaption
+{
+    font-size: large;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+}
+.additems
+{
+    display: block;    
+    width: 40rem;
+    height: 3rem;
+    color: navy;
+    border: 2px solid #ccc;    
+    border-radius: 25px;
+    outline: none;
+    line-height: 1.5;
+    /* line-break: strict; */
+    padding: 5px 15px;
+    font-size: large;
+    margin-top: 1rem;
+    font-weight: 800;    
+}
+#inputGroup-sizing-sm
+{
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 3rem;   
+    padding: 5px 10px; 
+}
+.form-control
+{
+    display: block;
+    max-width: 40rem;
+    height: 3rem;
+    color: navy;   
+}
+.fa
+{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    /* z-index: 10; */
+    background-color: #fff;
+    color: #666;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    /* border-radius: 25px; */
+}
+.editbtn
+{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    /* z-index: 10; */
+    background-color: #fff;
+    color: #666;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    /* border-radius: 25px; */
+}
+.editbtn:hover
+{
+    cursor: pointer;    
+    color: springgreen;
+}
+.btn
+{
+    font-size: larger;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.btn:hover
+{
+    letter-spacing: 4px;
+    transition: ease-in-out 0.3s;
+}
+.showitems
+{
+    margin: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.eachitem
+{
+    background-color: slateblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 25px;       
+}
+.eachitem h3{
+    padding: 0 15px;
+}
+.eachitem:hover
+{
+    background-color: #fff;
+    color: slateblue;
+    font-weight: 800;
+}
+.edits
+{
+    padding: 0 15px;
+}
+.edits:hover
+{
+    cursor: pointer;    
+    color: springgreen;
+}
+.delet
+{
+    padding: 0 15px;
+}
+.delet:hover
+{
+    cursor: pointer;
+    color: red;            
+}
+.btn-danger
+{
+    box-shadow: 0 0 10px white;
+    background-color: red;
+}
+.btn-danger:hover
+{
+    background-color: maroon;
+    box-shadow: 0 0 50px white;  
+}
+@media (max-width : 740px) {
+    .additems
+    {
+        max-width: 300px;
+    }   
+}
+@media (max-width : 400px) {
+    .additems
+    {
+        max-width: 150px;
+    }   
+}
+
