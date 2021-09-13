@@ -201,12 +201,18 @@ figcaption
     .additems
     {
         max-width: 300px;
+    }
+    h1{
+        font-size: 60px;
     }   
 }
 @media (max-width : 400px) {
     .additems
     {
         max-width: 150px;
+    }
+    h1{
+        font-size: 30px;
     }   
 }
 
